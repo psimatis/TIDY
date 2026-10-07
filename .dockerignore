@@ -1,0 +1,10 @@
+.git
+.venv
+docs
+data/static/*.dat
+data/stream/domain_extent_uniform
+data/stream/synthetic/te_skew
+data/stream/synthetic/poisson_duration
+**/*.o
+**/*.exe
+**/*.log

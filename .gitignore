@@ -1,0 +1,20 @@
+*.o
+*.exe
+.build/
+__pycache__/
+.venv/
+docs/
+
+# datasets and generated streams
+data/static/*.dat
+data/stream/domain_extent_uniform/
+data/stream/synthetic/te_skew/
+data/stream/synthetic/poisson_duration/
+
+# experiment outputs
+experiments/**/*.log
+experiments/**/*.csv
+experiments/**/*.pdf
+experiments/**/summary_tables.txt
+data/static/*.pdf
+data/static/*.csv
